@@ -6,9 +6,8 @@ This repository provides a template for creating a personal academic website usi
 
 ## How to Use This Template
 
-1. **Fork the repository**  
-   Click the **Fork** button, and in the **Repository name** field, enter:  
-   `your-github-username.github.io`
+1. **Download all the files**  
+   Download all the files in this repository. Then create a new repository in your own GitHub account and set the **Repository name** to `your-github-username.github.io`. After that, upload all the downloaded files to this repository.
 
 2. **Enable GitHub Pages**  
    - Go to your repository **Settings → Pages**  
