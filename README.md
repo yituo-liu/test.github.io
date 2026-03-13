@@ -88,15 +88,10 @@ Suppose you want to add an **News** page:
 ### `_layouts/normal.html`
 - Controls the layout for other pages (e.g., **Publications**, **People**).
 
-### `assets/css/jemdocCustom.css`
-- Defines custom styles for homepage and other pages.
-- Used by both `homepage.html` and `normal.html`.
-- You may modify this file if you want to customize the appearance of the website (e.g., fonts, spacing, or layout).
-
-### `assets/css/style.css`
-- Contains **default styles**.
-- Generally no modification is needed.
-- This file is not used by `homepage.html` and `normal.html`.
+### `assets/css/jemdocCustom.css` and `assets/css/style.css`
+- Define the styles for the homepage and other pages.
+- Used by `homepage.html` and `normal.html`.
+- You may modify these files to customize the appearance of the website (e.g., fonts, spacing, or layout).
 
 
 ### `assets/img/`
