@@ -62,6 +62,11 @@ Suppose you want to add an **News** page:
   - `ABC` must match the name of your `.md` file.  
   - `XXX` is the text displayed on the navigation bar.  
 
+### `_config.yml`
+- Configure the following display information:
+  - Website title (shown at the top of the homepage).
+  - Personal information (displayed to the right of the profile photo).
+
 
 ### `_layouts/homepage.html`
 - Controls the **homepage layout**, including profile photo and personal information (on the right of the photo).  
@@ -77,8 +82,8 @@ Suppose you want to add an **News** page:
   {% if site.department %}…{% endif %}
   {% if site.affiliation %}…{% endif %}
   ```
-- The actual text and links are configured in `_config.yml`.
-- If a field is empty, it will not be shown.
+- The displayed text and links are configured in `_config.yml`.
+- If a specific field is not defined in `_config.yml`, it will not be displayed on the homepage.
   
 ### `_layouts/normal.html`
 - Controls the layout for other pages (e.g., **Publications**, **People**).
@@ -98,12 +103,7 @@ Suppose you want to add an **News** page:
 
 ### `publication/`
 - Stores PDF files of conference and journal papers.
-
-### `_config.yml`
-- Defines (examples):
-  - Website title (shown at the top of the homepage).
-  - Profile information (displayed next to the right of the photo).
-  - Link to the profile photo.
+- 
 
 ### `index.md`
 - Defines **homepage content**.
