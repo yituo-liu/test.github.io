@@ -91,19 +91,19 @@ Suppose you want to add an **News** page:
 ### `assets/css/jemdocCustom.css`
 - Defines custom styles for homepage and other pages.
 - Used by both `homepage.html` and `normal.html`.
+- You may modify this file if you want to customize the appearance of the website (e.g., fonts, spacing, or layout).
 
 ### `assets/css/style.css`
 - Contains **default styles**.
 - Generally no modification is needed.
-- Not used in `homepage.html` and `normal.html`.
+- This file is not used by `homepage.html` and `normal.html`.
 
 
-### `img/`
+### `assets/img/`
 - Stores image files (e.g., profile photo, figures).
 
-### `publication/`
+### `assets/publication/`
 - Stores PDF files of conference and journal papers.
-- 
 
 ### `index.md`
 - Defines **homepage content**.
