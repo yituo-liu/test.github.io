@@ -13,7 +13,7 @@ This repository provides a template for creating a personal academic website usi
    - Go to your repository **Settings → Pages**  
    - Set the **Branch** to `master/root` or `main/root`  
    - Click **Save**  
-   After a short wait, you will see a **Visit site** button under the **GitHub Pages** section. Click it to view your website.
+   After a short wait, you will see a **Visit site** button under the **Settings → Pages → GitHub Pages** section. Click it to view your website.
 
 ---
 
