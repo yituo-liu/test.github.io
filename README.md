@@ -90,7 +90,7 @@ Suppose you want to add an **News** page:
 
 ### `assets/css/jemdocCustom.css` and `assets/css/style.css`
 - Define the styles for the homepage and other pages.
-- Used by `homepage.html` and `normal.html`.
+- Loaded by `homepage.html` and `normal.html`.
 - You may modify these files to customize the appearance of the website (e.g., fonts, spacing, or layout).
 
 
