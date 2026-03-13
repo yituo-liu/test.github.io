@@ -59,7 +59,7 @@ Suppose you want to add an **News** page:
      </div>
      ```
 
-  - `ABC` must match the name of your `.md` file (without extension).  
+  - `ABC` must match the name of your `.md` file.  
   - `XXX` is the text displayed on the navigation bar.  
 
 
