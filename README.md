@@ -69,7 +69,7 @@ Suppose you want to add an **News** page:
 
 
 ### `_layouts/homepage.html`
-- Controls the **homepage layout**, including profile photo and personal information (on the right of the photo).  
+- Controls the **homepage layout**, including profile photo and personal information (displayed to the right of the photo).  
 - To adjust photo size, edit the following line:  
 
   ```html
